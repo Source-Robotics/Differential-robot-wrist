@@ -7,7 +7,7 @@ Motor = []
 
 Motor.append(Spectral.SpectralCAN(node_id=0, communication=Communication1))
 Motor.append(Spectral.SpectralCAN(node_id=1, communication=Communication1)) 
-ž
+
 
 timeout_setting = 0.00005
 tick_cnt = 0
